@@ -1,10 +1,10 @@
-# Ticket2U Frontend 🎫
+# Ticket2U Frontend
 
 **React SPA** for the Ticket2U event ticketing platform.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **React 18** - UI library
 - **TypeScript** - Type safety
@@ -16,7 +16,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 frontend/
@@ -39,7 +39,7 @@ frontend/
 
 ---
 
-## 🚀 Local Development Setup
+## Local Development Setup
 
 ### Prerequisites
 
@@ -63,7 +63,7 @@ npm run dev
 
 ---
 
-## 🔧 Available Scripts
+## Available Scripts
 
 ```bash
 # Development server with hot reload
@@ -84,7 +84,7 @@ npm run lint
 
 ---
 
-## 🎨 Features
+## Features
 
 ### Public Pages
 - **Landing Page** - Hero, featured events, venues
@@ -100,7 +100,7 @@ npm run lint
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### API URL
 
@@ -114,7 +114,7 @@ For production, update this to your backend URL.
 
 ---
 
-## 🏗 Building for Production
+## Building for Production
 
 ```bash
 # Build the app
@@ -127,6 +127,6 @@ The `dist/` folder can be served by any static file server (Nginx, Apache, Netli
 
 ---
 
-## 📄 License
+## License
 
 MIT
