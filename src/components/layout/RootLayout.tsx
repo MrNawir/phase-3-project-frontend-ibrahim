@@ -1,6 +1,6 @@
 import { Outlet, Link, useLocation } from 'react-router-dom'
 import { ThemeToggle } from '../ui/ThemeToggle'
-import { Ticket, Calendar, MapPin, Sparkles } from 'lucide-react'
+import { Ticket, Calendar, MapPin } from 'lucide-react'
 
 export function RootLayout() {
   const location = useLocation()
@@ -17,7 +17,6 @@ export function RootLayout() {
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-xl bg-base-100 rounded-box w-52 border border-base-200">
               <li><Link to="/events" className="flex items-center gap-2"><Calendar className="w-4 h-4" /> Events</Link></li>
               <li><Link to="/venues" className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Venues</Link></li>
-              <li><Link to="/admin" className="flex items-center gap-2"><Sparkles className="w-4 h-4" /> Admin</Link></li>
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost text-xl font-bold tracking-tight gap-2 hover:bg-primary/10">
@@ -37,11 +36,6 @@ export function RootLayout() {
                 <MapPin className="w-4 h-4" /> Venues
               </Link>
             </li>
-            <li>
-              <Link to="/admin" className={`rounded-lg transition-all ${location.pathname.startsWith('/admin') ? 'bg-primary/10 text-primary' : 'hover:bg-base-200'}`}>
-                <Sparkles className="w-4 h-4" /> Admin
-              </Link>
-            </li>
           </ul>
         </div>
         <div className="navbar-end gap-2">
@@ -59,28 +53,8 @@ export function RootLayout() {
       <footer className="footer p-10 bg-neutral text-neutral-content">
         <aside>
           <span className="footer-title text-2xl font-bold text-primary">TicketToU</span>
-          <p>Your gateway to live events.<br/>Providing reliable ticketing since 2024.</p>
-        </aside> 
-        <nav>
-          <header className="footer-title">Services</header> 
-          <a className="link link-hover">Branding</a> 
-          <a className="link link-hover">Design</a> 
-          <a className="link link-hover">Marketing</a> 
-          <a className="link link-hover">Advertisement</a>
-        </nav> 
-        <nav>
-          <header className="footer-title">Company</header> 
-          <a className="link link-hover">About us</a> 
-          <a className="link link-hover">Contact</a> 
-          <a className="link link-hover">Jobs</a> 
-          <a className="link link-hover">Press kit</a>
-        </nav> 
-        <nav>
-          <header className="footer-title">Legal</header> 
-          <a className="link link-hover">Terms of use</a> 
-          <a className="link link-hover">Privacy policy</a> 
-          <a className="link link-hover">Cookie policy</a>
-        </nav>
+          <p>Your gateway to live events.<br/>Providing reliable ticketing since 2025.</p>
+        </aside>
       </footer>
     </div>
   )

@@ -5,6 +5,7 @@ import { EventsPage } from './pages/EventsPage'
 import { EventDetailPage } from './pages/EventDetailPage'
 import { VenuesPage } from './pages/VenuesPage'
 import { VenueDetailPage } from './pages/VenueDetailPage'
+import { ComingSoonPage } from './pages/ComingSoonPage'
 import { DashboardPage } from './pages/admin/DashboardPage'
 import { AdminVenuesPage } from './pages/admin/AdminVenuesPage'
 import { AdminEventsPage } from './pages/admin/AdminEventsPage'
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "venues/:id",
         element: <VenueDetailPage />,
+      },
+      {
+        path: "login",
+        element: <ComingSoonPage />,
       },
     ],
   },
